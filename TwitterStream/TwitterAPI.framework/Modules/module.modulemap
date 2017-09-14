@@ -1,0 +1,10 @@
+framework module TwitterAPI {
+  umbrella header "TwitterAPI.h"
+
+  export *
+  module * { export * }
+}
+
+module TwitterAPI.Swift {
+    header "TwitterAPI-Swift.h"
+}
